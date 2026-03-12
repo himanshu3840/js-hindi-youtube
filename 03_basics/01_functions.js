@@ -27,7 +27,7 @@ const result = addTwoNumbers(3, 5)
 // console.log("Result: ", result);
 
 
-function loginUserMessage(username = "sam"){
+function loginUserMessage(username = "sam"){ // agar argument nahi pass kiya to ye sam ko hi le lega
     if(!username){
         console.log("PLease enter a username");
         return
